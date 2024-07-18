@@ -1,7 +1,18 @@
-:root {}
+:root {
+
+  --dark-cyan: #4D96A9;
+  --dark-violet: #855FB1;
+  --dark-gray: #28283D;
+  --light-gray: #87879D;
+  --light-cyan: #8FE3F9;
+  --light-violet: #D9B8FF;
+  --white: #FAFAFA;
+
+
+}
 
 html {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 *,
@@ -18,4 +29,20 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+main {
+  display: flex;
+  width: 90%;
+  max-width: 90rem;
+  background-color: var(--white);
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.5rem;
 }
